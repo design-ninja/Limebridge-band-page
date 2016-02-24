@@ -34,3 +34,9 @@ Temporary Items
 config.codekit
 *.codekit
 /min
+
+*.codekit
+
+*.codekit
+
+*.psd

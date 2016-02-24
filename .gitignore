@@ -30,13 +30,8 @@ Temporary Items
 
 
 ### CodeKit ###
-# General CodeKit files to ignore
+*.codekit
 config.codekit
-*.codekit
-/min
-
-*.codekit
-
-*.codekit
 
 *.psd
+

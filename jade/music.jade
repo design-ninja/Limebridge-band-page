@@ -1,0 +1,90 @@
+section#music
+  .container
+    .row.music
+      .heading
+        h1 Музыка.
+      .music-block
+        #myCarousel.carousel.slide(data-ride='carousel')
+          // Carousel items
+          .carousel-inner
+            .item.active
+              .cd-block.item.active
+                img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd1.png', alt='CD1')
+                .cd-overlay.cd-overlay-base
+                .cd-overlay-text.cd-overlay-base
+                  span r
+              .cd-block.item.active
+                img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd2.png', alt='CD2')
+                .cd-overlay.cd-overlay-base
+                .cd-overlay-text.cd-overlay-base
+                  span r
+              a#show2
+                .cd-block.item.active
+                  img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd3.png', alt='CD3')
+                  .cd-overlay.cd-overlay-base
+                  .cd-overlay-text.cd-overlay-base
+                    span r
+            .item
+              .cd-block.item
+                img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd3.png', alt='CD1')
+                .cd-overlay.cd-overlay-base
+                .cd-overlay-text.cd-overlay-base
+                  span r
+              .cd-block.item
+                img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd1.png', alt='CD2')
+                .cd-overlay.cd-overlay-base
+                .cd-overlay-text.cd-overlay-base
+                  span r
+              a#show2
+                .cd-block.item
+                  img.img-responsive.img-portfolio.cd-img(src='assets/img/cd/cd2.png', alt='CD3')
+                  .cd-overlay.cd-overlay-base
+                  .cd-overlay-text.cd-overlay-base
+                    span r
+            a.left.carousel-control(href='#myCarousel', data-slide='prev') 
+            a.right.carousel-control(href='#myCarousel', data-slide='next') 
+          // /myCarousel
+  .row.music-cd3
+    .container
+      row.music-cd3-content
+        .col-lg-3.col-md-12.column-left
+          img.cd-cover(src='assets/img/cd/cd3.png')
+          h2.white Mohochrome
+          small.white © Limebridge 2012
+        .col-lg-8.col-md-12.column-right
+          .track
+            span.track-name.white 1. Volshebnaya
+            span
+              audio.player(src='assets/mp3/Monochrome/01-Volshebnaya.mp3', controls='', preload='')
+          .track
+            span.track-name.white 2. Never Been Alone
+            span
+              audio.player(src='assets/mp3/Monochrome/02-Never-Been-Alone.mp3', controls='', preload='')
+          .track
+            span.track-name.white 3. Nina
+            span
+              audio.player(src='assets/mp3/Monochrome/03-Nina.mp3', controls='', preload='')
+          .track
+            span.track-name.white 4. Tonight-Tonight
+            span
+              audio.player(src='assets/mp3/Monochrome/04-Tonight-Tonight.mp3', controls='', preload='')
+          .track
+            span.track-name.white 5. Wires
+            span
+              audio.player(src='assets/mp3/Monochrome/05-Wires.mp3', controls='', preload='')
+          .track
+            span.track-name.white 6. I've Broken My Guitar
+            span
+              audio.player(src="assets/mp3/Monochrome/06-I've-Broken-My-Guitar.mp3", controls='', preload='')
+          .track
+            span.track-name.white 7. Luna
+            span
+              audio.player(src='assets/mp3/Monochrome/07-Luna.mp3', controls='', preload='')
+          .track
+            span.track-name.white 8. Endless Day
+            span
+              audio.player(src='assets/mp3/Monochrome/08-Endless-Day.mp3', controls='', preload='')
+        .col-lg-1.close-cd
+          a#hide2.closeme.whitelink(type='button', data-dismiss='modal')
+            span(aria-hidden='true') 
+            span.sr-only Закрыть

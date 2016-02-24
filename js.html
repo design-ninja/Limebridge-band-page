@@ -1,0 +1,37 @@
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $("#show").click(function(){
+  $(".about").hide();
+  $(".about2").show();
+  });
+  $("#hide").click(function(){
+  $(".about2").hide();
+  $(".about").show();
+  });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+  $("#show2").click(function(){
+  $(".music").hide();
+  $(".music-cd3").show();
+  });
+  $("#hide2").click(function(){
+  $(".music-cd3").hide();
+  $(".music").show();
+  });
+  });
+</script>
+<script>
+  $(function(){
+  $('#video-salamandra').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+  $('#video-salamandra').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+  });
+</script>

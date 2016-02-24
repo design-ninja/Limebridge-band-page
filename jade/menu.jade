@@ -1,0 +1,28 @@
+// Modal fullscreen
+#modal-fullscreen.modal.modal-fullscreen.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      .modal-body
+        ul
+          li
+            a.closeme(type='button', data-dismiss='modal') 
+              span(aria-hidden='true') 
+              span.sr-only Закрыть
+          li
+            h1
+              a.pointer(onclick="window.location.href='#about'", data-dismiss='modal') О группе
+          li
+            h1
+              a.pointer(onclick="window.location.href='#gigs'", data-dismiss='modal') Концерты
+          li
+            h1
+              a.pointer(onclick="window.location.href='#photo'", data-dismiss='modal') Фото
+          li
+            h1
+              a.pointer(onclick="window.location.href='#music'", data-dismiss='modal') Музыка
+          li
+            h1
+              a.pointer(onclick="window.location.href='#video'", data-dismiss='modal') Видео
+          li
+            h1
+              a.pointer(onclick="window.location.href='#contacts'", data-dismiss='modal') Контакты

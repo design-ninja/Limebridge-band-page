@@ -1,0 +1,25 @@
+section#contact
+  .container
+    .row.contact
+      .heading
+        h1 Контакты.
+      .column-left.col-lg-6.gray
+        .contact-info
+          p
+            | По всем вопросам, связанным с организацией концертов, обращаться к директору группы:
+      .main-gig-column.col-lg-6
+        .contact-form
+          form
+            .form-group
+              input#InputName.form-control(type='email')
+              label(for='InputName')
+                small Имя
+            .form-group
+              input#InputEmail.form-control(type='email')
+              label(for='InputEmail')
+                small Электропочта
+            .form-group
+              textarea#InputMessage.form-control(rows='5')
+              label(for='InputMessage')
+                small Сообщение
+            button.btn.btn-default(type='submit') Отправить

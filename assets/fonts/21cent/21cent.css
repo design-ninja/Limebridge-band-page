@@ -1,0 +1,38 @@
+@font-face {
+    font-family: '21_cent';
+    src: url('21cent-bold-webfont.woff2') format('woff2'),
+         url('21cent-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: '21_cent';
+    src: url('21cent-bolditalic-webfont.woff2') format('woff2'),
+         url('21cent-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: '21_cent';
+    src: url('21cent-italic-webfont.woff2') format('woff2'),
+         url('21cent-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: '21_cent';
+    src: url('21cent-webfont.woff2') format('woff2'),
+         url('21cent-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

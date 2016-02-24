@@ -1,0 +1,59 @@
+/* Menu
+
+.modal-fullscreen
+  background: rgba(0, 0, 0, 0.8)
+  color: $white
+  .modal-content
+    margin-right: -15px
+    min-width: 100%
+    background: transparent
+    border: 0
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0)
+
+.closeme
+  box-sizing: border-box
+  font-family: 'linea-arrows-10'
+  font-size: 4rem
+  color: $light-gray
+  cursor: pointer
+  @media (max-width: $ipad)
+    padding-left: 10px
+  &:hover
+    color: $white
+
+.modal-fullscreen .modal-content
+  a
+    text-decoration: none
+    color: $white
+    &:hover
+      color: $gray
+  h1
+    margin-bottom: 2.5rem
+  li
+    text-align: center
+
+.modal-backdrop.modal-backdrop-fullscreen
+  background: $black
+  &.in
+    opacity: 0 0.9
+    filter: alpha(opacity = 95)
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints
+
+.modal-fullscreen .modal-dialog
+  margin: 0
+  margin-right: auto
+  margin-left: auto
+  width: 100%
+
+@media (min-width: 768px)
+  .modal-fullscreen .modal-dialog
+    width: 750px
+
+@media (min-width: 992px)
+  .modal-fullscreen .modal-dialog
+    width: 970px
+
+@media (min-width: 1200px)
+  .modal-fullscreen .modal-dialog
+    width: 1170px

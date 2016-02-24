@@ -9927,17 +9927,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28821,
-		"inputAbbreviatedPath": "\/assets\/img\/logo.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/main-gig.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9945,72 +9934,6 @@
 		"initialSize": 197225,
 		"inputAbbreviatedPath": "\/assets\/img\/main-gig.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/main-gig.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63788,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/1.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48101,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/2.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48228,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/3.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49055,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/4.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62334,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/5.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/portfolio\/6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53428,
-		"inputAbbreviatedPath": "\/assets\/img\/portfolio\/6.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/portfolio\/6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

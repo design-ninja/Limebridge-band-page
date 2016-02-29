@@ -1,9 +1,7 @@
 a
   color: $blue
   text-decoration: underline
-  -webkit-transition: all .35s
-  -moz-transition: all .35s
-  transition: all .35s
+  +link-transition(.400s)
   &:hover, &:focus
     color: $gray
     text-decoration: none
@@ -11,13 +9,9 @@ a
 .whitelink
   color: $white
   text-decoration: none
-  -webkit-transition: all .35s
-  -moz-transition: all .35s
-  transition: all .35s
+  +link-transition(.400s)
   cursor: pointer
   &:hover
     color: $gray
     text-decoration: none
-    -webkit-transition: all .35s
-    -moz-transition: all .35s
-    transition: all .35s
+    +link-transition(.400s)

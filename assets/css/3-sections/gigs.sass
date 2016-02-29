@@ -19,19 +19,20 @@
         padding: 0 1rem
   .main-gig
     height: 500px
-    background-repeat: no-repeat
-    background-image: url(../img/main-gig.jpg)
-    background-position: center
-    background-size: cover
+    background:
+      repeat: no-repeat
+      image: url(../img/main-gig.jpg)
+      position: center
+      size: cover
   .main-gig-column
     margin: 0
     padding: 0
   .main-gig
     .overlay
-      background: rgba(0, 0, 0, 0.7)
+      background: fade-out($black, 0.3)
       height: 500px
     .main-gig-block
-      padding: 17rem 5rem 1rem
+      padding: 17rem 4rem 1rem
       @media (max-width: $ipad)
         padding: 25rem 2rem 1rem
       color: $white
@@ -41,9 +42,7 @@
         padding: 0 1rem
       a
         text-decoration: none
-        border-bottom: 0.2rem
-        border-color: $mid-gray
-        border-bottom-style: solid
+        border-bottom: 1px solid $gray
         color: $white
         &:hover
           color: $light-gray

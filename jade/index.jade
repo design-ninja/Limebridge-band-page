@@ -7,12 +7,14 @@ html(lang='ru')
     // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
     title Группа Limebridge
     // Bootstrap
-    link(href='assets/css/5-bootstrap/bootstrap.min.css', rel='stylesheet')
+    link(href='assets/css/1-tools/bootstrap/bootstrap.min.css', rel='stylesheet')
     // Html5 media player
     script(src='assets/js/html5media.min.js')
+    // Animations
+    script(src='assets/js/animations.js')
     // My styles
     link(href='assets/css/main.css', rel='stylesheet')
-    include ./fonts.jade
+    include fonts.jade
 
     // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
     // WARNING: Respond.js doesn't work if you view the page via file://
@@ -20,16 +22,16 @@ html(lang='ru')
       script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
       script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
   body
-    include ./header.jade
-    include ./about.jade
+    include header.jade
+    include about.jade
     hr
-    include ./gigs.jade
-    include ./photo.jade
-    include ./music.jade
-    include ./video.jade
-    include ./contact.jade
-    include ./footer.jade
+    include gigs.jade
+    include photo.jade
+    include music.jade
+    include video.jade
+    include contact.jade
+    include footer.jade
     
-    include ./menu.jade
+    include menu.jade
     
-    include ./js.jade
+    include js.jade
